@@ -1,0 +1,51 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	margin:0 auto;
+}
+
+.logo {
+
+}
+
+.title {
+	vertical-align: top;
+	padding-left: 16px;
+}
+
+.content {
+	padding-top: 24px;
+	width: 70%;
+	margin:0 auto;
+}
+
+.image {
+	float: left;
+	width: 250px;
+	margin-right: 8px;
+}
+
+.image img {
+	height: 100%;
+	width: 100%;
+ }
+
+.head {
+	padding-top: 36px;
+	text-align: center
+}
+
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	display: flex;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
