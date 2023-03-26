@@ -7,10 +7,7 @@ body {
     padding: 1em ;
     padding-bottom: 48px;
 }
-p {
-    color: white;
-}
 
-h1 {
-    color: khaki;
+li {
+    color: white;
 }
