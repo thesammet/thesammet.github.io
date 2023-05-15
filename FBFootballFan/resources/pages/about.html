@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../css/about.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="../js/carousel.js"></script>
 
 <body>
     <!-- navbar -->
@@ -35,7 +37,23 @@
             ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
             nulla pariatur?</p>
     </div>
+    <div class="filter-button-group">
+        <button data-filter="*">Links (All) </button>
+        <button data-filter=".category1">Official Website</button>
+        <button data-filter=".category2">İnstagram</button>
+        <button data-filter=".category3">Twitter</button>
+    </div>
 
+    <div class="grid">
+        <div class="grid-item category1"><a href="https://www.fenerbahce.org/">@fenerbahce.com</a></div>
+        <div class="grid-item category2"><a href="https://www.instagram.com/fenerbahce/">@/fenerbahce</a></div>
+        <div class="grid-item category2"><a href="https://www.instagram.com/fbfutbolakademi/">@fenerbahce academy</a>
+        </div>
+        <div class="grid-item category3">
+            <a href="https://twitter.com/Fenerbahce?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">@fenerbahce
+                Twitter</a>
+        </div>
+    </div>
     <!-- footer -->
     <div class="footer">
         <h3>&copy; Copyright 2023 FB Fan Club</h3>

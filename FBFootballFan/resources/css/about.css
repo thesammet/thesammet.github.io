@@ -15,3 +15,14 @@ p {
 h1 {
     color: khaki;
 }
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: left;
+}
+
+a {
+    color: wheat;
+}

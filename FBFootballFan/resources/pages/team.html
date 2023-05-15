@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../css/team.css">
-
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/accordion.js"></script>
 
 <body>
     <!-- navbar -->
@@ -22,55 +24,68 @@
             <a href="contact.html">Contact</a>
         </div>
     </div>
-    <!-- main -->
-    <div class="main">
-        <ul>
-            <li>
-                Altay Bayındır
-                Kaleci
-                #1</li>
-            <li>
-                Attila Szalai
-                Defans
-                #41</li>
-            <li>
-                Serdar Aziz
-                Defans
-                #4</li>
-            <li>
-                Samet Akaydın
-                Defans
-                #3</li>
-            <li>
-                Ferdi Kadıoğlu
-                Defans
-                #7</li>
-            <li>
-                Jayden Oosterwolde
-                Defans
-                #24</li>
-            <li>
-                Mert Hakan Yandaş
-                Ortasaha
-                #8</li>
-            <li>
-                Arda Güler
-                Ortasaha
-                #10</li>
-            <li>
-                Diego Rossi
-                Forvet
-                #9</li>
-            <li>
-                Michy Batshuayi
-                Forvet
-                #23</li>
-            <li>
-                Enner Valencia
-                Forvet
-                #13</li>
+    <div class="accordion-container">
+        <div id="accordion">
+            <h3 class="accordion-header">Kaleci</h3>
+            <div class="accordion-content">
+                <li>
+                    Altay Bayındır
+                    Kaleci
+                    #1</li>
+            </div>
 
-        </ul>
+            <h3 class="accordion-header">Defans</h3>
+            <div class="accordion-content">
+                <li>
+                    Attila Szalai
+                    Defans
+                    #41</li>
+                <li>
+                    Serdar Aziz
+                    Defans
+                    #4</li>
+                <li>
+                    Samet Akaydın
+                    Defans
+                    #3</li>
+                <li>
+                    Ferdi Kadıoğlu
+                    Defans
+                    #7</li>
+                <li>
+                    Jayden Oosterwolde
+                    Defans
+                    #24</li>
+            </div>
+
+            <h3 class="accordion-header">Orta Saha</h3>
+            <div class="accordion-content">
+                <li>
+                    Mert Hakan Yandaş
+                    Ortasaha
+                    #8</li>
+                <li>
+                    Arda Güler
+                    Ortasaha
+                    #10</li>
+            </div>
+
+            <h3 class="accordion-header">Forver</h3>
+            <div class="accordion-content">
+                <li>
+                    Diego Rossi
+                    Forvet
+                    #9</li>
+                <li>
+                    Michy Batshuayi
+                    Forvet
+                    #23</li>
+                <li>
+                    Enner Valencia
+                    Forvet
+                    #13</li>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->

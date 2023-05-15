@@ -8,6 +8,18 @@ body {
     padding-bottom: 48px;
 }
 
-li {
-    color: white;
+.accordion-container {
+    width: 400px;
+    margin: 20px auto;
+}
+.accordion-header {
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+.accordion-content {
+    background-color: #f4f4f4;
+    padding: 10px;
 }

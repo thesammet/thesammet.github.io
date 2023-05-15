@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
-
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="../js/contact.js"></script>
+</head>
 
 <body>
     <!-- navbar -->
@@ -24,7 +26,7 @@
     </div>
     <!-- main -->
     <div class="main">
-        <form>
+        <form id="contact-form" onsubmit="return validateForm()">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -38,6 +40,7 @@
 
         </form>
     </div>
+    <div class="result" id="result"></div>
 
     <!-- footer -->
     <div class="footer">
