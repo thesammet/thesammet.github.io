@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>USING JQUERY UI</title>
+    <meta name="description" content="USING JQUERY UI">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Activity8.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./Activity8.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <h2>Form Example</h2>
+            <form>
+                <div class="form-group">
+                    <label for="programmingLanguage">Programming Language:</label>
+                    <input type="text" id="programmingLanguage" name="programmingLanguage"
+                        placeholder="Enter your programming language" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter a valid email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website" placeholder="Enter your website URL">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                    <div class="warning" style="display: none;">Please fill in all required fields with valid inputs.
+                    </div>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>
