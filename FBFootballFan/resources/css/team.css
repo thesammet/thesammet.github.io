@@ -12,6 +12,7 @@ body {
     width: 400px;
     margin: 20px auto;
 }
+
 .accordion-header {
     background-color: #ccc;
     color: #333;
@@ -34,4 +35,7 @@ body {
     text-align: center;
     color:#f4f4f4;
     font-weight: bold;
+    margin-top: 20px;
   }
+
+  

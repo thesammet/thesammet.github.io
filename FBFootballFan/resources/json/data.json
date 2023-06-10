@@ -1,0 +1,65 @@
+{
+    "Kaleci": [
+      {
+        "name": "Altay Bayındır",
+        "position": "Kaleci",
+        "number": "#1"
+      }
+    ],
+    "Defans": [
+      {
+        "name": "Attila Szalai",
+        "position": "Defans",
+        "number": "#41"
+      },
+      {
+        "name": "Serdar Aziz",
+        "position": "Defans",
+        "number": "#4"
+      },
+      {
+        "name": "Samet Akaydın",
+        "position": "Defans",
+        "number": "#3"
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "position": "Defans",
+        "number": "#7"
+      },
+      {
+        "name": "Jayden Oosterwolde",
+        "position": "Defans",
+        "number": "#24"
+      }
+    ],
+    "Orta Saha": [
+      {
+        "name": "Mert Hakan Yandaş",
+        "position": "Ortasaha",
+        "number": "#8"
+      },
+      {
+        "name": "Arda Güler",
+        "position": "Ortasaha",
+        "number": "#10"
+      }
+    ],
+    "Forvet": [
+      {
+        "name": "Diego Rossi",
+        "position": "Forvet",
+        "number": "#9"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "position": "Forvet",
+        "number": "#23"
+      },
+      {
+        "name": "Enner Valencia",
+        "position": "Forvet",
+        "number": "#13"
+      }
+    ]
+  }  
